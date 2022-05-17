@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class NavMeshController : MonoBehaviour
+namespace IAV_Balorant
 {
-    private NavMeshAgent agent;
-
-    // Start is called before the first frame update
-    void Start()
+    public class NavMeshController : MonoBehaviour
     {
-       agent = GetComponent<NavMeshAgent>();
-    }
+        private NavMeshAgent agent;
 
-    // Update is called once per frame
-    void Update()
-    {
+        // Start is called before the first frame update
+        void Start()
+        {
+            agent = GetComponent<NavMeshAgent>();
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+        }
     }
 }
