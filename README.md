@@ -45,14 +45,14 @@ El objetivo de esta IA es que aprenda en que lugares es mas probable que se encu
 ## Punto de partida
 Utilizaremos una plantilla de shooter en primera persona para Unity para ahorrarnos el trabajo de implementar las mecánicas básicas de un shooter.
 
-## Resultado de la paortación individual
+## Resultado de la aportación individual
 Mi aportación a la práctica ha sido la creación del sistema de disparo y el comportamiento total de Jett. Para el comportamiento de Jett, he implementado un sistema de rutas que he predefinifo manualmente en su comportamiento, que sigue una de estas rutas, mientras se para a defender o vigilar la siguiente zona en caso de enemigos.
 
 Jett es un personaje de Valorant de tipo duelista, por tanto su comportamiento en el proyecto será agresivo buscando eliminar el mayor número de enemigos posibles en el menor tiempo posible, al igual que en el juego original. Esta, posee una mayor capacidad de reacción a enemigo que sus compañeros debido a su rol, por lo tanto, tiene un sistema que dedica un menor tiempo a la vigilancia de zonas y más al avance por el mapa y un estado de alerta si se encuentra enemigos, favorecido por el uso de un sistema de percepción visual usando su cámara individual.
 
-Pese a ser duelista, tiene también comunicación con sus compañeros, espoecialmente con Sova, pidiendole una espera cuando ambos se encuentran juntos, para limpiar un zona concreta a la que sova identificará enemigos con su flecha, de forma eficiente. También avisa cuando no hay enemigos en la zona para plantar la spike.
+Pese a ser duelista, tiene también comunicación con sus compañeros, especialmente con Sova, pidiendole una espera cuando ambos se encuentran juntos, para limpiar un zona concreta a la que sova identificará enemigos con su flecha, de forma eficiente. También avisa cuando no hay enemigos en la zona para plantar la spike.
 
-Y por último, en cuanto al comportamiento, Jett dispone de una habilidad Dash, que le permite moverse ágilmente por el escenario pero con usos limitados. Las situaciones más probables a usar el dash son, cuando se encuentra en peligro ante la presencia de enemigos, cuando esta ha terminado su ruta y pasa a otra avanzará rápidamente a esa para evitar demora y cuando Sova detecte un enemigo en una zona que limpian juntos, Jett usará su avance rápido para sorprender a los enemigos y acabra con los enemigos detectados por la flecha.
+Y por último, en cuanto al comportamiento, Jett dispone de una habilidad Dash, que le permite moverse ágilmente por el escenario pero con usos limitados. Las situaciones más probables a usar el dash son, cuando se encuentra en peligro ante la presencia de enemigos, cuando Jett ha terminado su ruta y pasa a otra, ella avanzará rápidamente a esa para evitar demora y cuando Sova detecte un enemigo en una zona que limpian juntos, Jett usará su avance rápido para sorprender a los enemigos y acabar con los enemigos detectados por la flecha.
 
 ## Conclusión
 Se ha creado un comportamiento de Jett que simula su rol duelista de Valorant. Jett recorre todo el mapa constantemente en busca de enemigos y limpiando las zonas potencialmente peligrosas premiando la agresividad a la estrategia, junto con su habilidad y la comunicación con su equipo.
